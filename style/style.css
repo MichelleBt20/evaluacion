@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.tit {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    color: rgb(128, 78, 123);
+}
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    padding: 50px 0;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 20px;
+    text-align: center;
+}
+.contenido {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    text-align: center;
+}
+.texto {
+    font-size: 15px;
+    margin: 20px;
+}
+.imagen{
+    margin: 20px;
+
+}
+@media (max-width: 352px) {
+    .texto{
+        font-size: 20px;
+    }
+   .imagen{
+    margin: 10px;
+   }
+   .texto{
+    margin: 10px;
+   }
+}
